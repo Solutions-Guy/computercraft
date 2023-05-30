@@ -1,0 +1,141 @@
+-- Function to place a block below the turtle
+function placeBlock()
+  turtle.placeDown()
+end
+
+-- Function to move the turtle forward a specified number of spaces, place a block below, and add four more blocks in front
+function wall(spaces)
+  turtle.select(1)
+  for i = 1, spaces do
+    turtle.forward()
+    placeBlock()
+  end
+end
+
+-- Function to move the turtle forward, move down to place a door and re-align to continue building a wall
+function door(spaces)
+  turtle.select(2)
+    for i = 1, spaces do
+    turtle.forward()
+    turtle.turnRight()
+    turtle.back()
+    turtle.down()
+    turtle.down()
+    turtle.place()
+    turtle.up()
+    turtle.up()
+    turtle.forward()
+    turtle.turnLeft()
+  end
+end
+
+-- Function to move the turtle forward a specified number of spaces, place a block below
+function roof(spaces)
+  turtle.select(3)
+  for i = 1, spaces do
+    turtle.forward()
+    placeBlock()
+  end
+end
+
+-- Function to move the turtle forward, move down to place a door and re-align to continue building a wall
+function torch(spaces)
+  turtle.select(4)
+    for i = 1, spaces do
+    turtle.turnLeft()
+    turtle.back()
+    turtle.back()
+    turtle.down()
+    turtle.place()
+    turtle.up()
+    turtle.forward()
+    turtle.forward()
+    turtle.turnRight()
+  end
+end
+
+-- Main function
+function main()
+  print("Moving forward, placing blocks")
+  wall(6)
+  turtle.turnRight()
+  wall(2)
+  turtle.forward()
+  wall(3)
+  turtle.turnRight()
+  wall(5)
+  turtle.turnRight()
+  wall(5)
+  turtle.forward()
+  turtle.turnRight()
+  turtle.back()
+-- 2nd layer of house
+  turtle.up()
+  wall(6)
+  turtle.turnRight()
+  wall(2)
+  door(1)
+  wall(3)
+  turtle.turnRight()
+  wall(5)
+  turtle.turnRight()
+  wall(3)
+  torch(1)
+  wall(2)
+  turtle.forward()
+  turtle.turnRight()
+  turtle.back()
+-- 3rd layer of house
+  turtle.up()
+  wall(6)
+  turtle.turnRight()
+  wall(6)
+  turtle.turnRight()
+  wall(5)
+  turtle.turnRight()
+  wall(5)
+  turtle.forward()
+  turtle.turnRight()
+  turtle.back()
+-- Roof
+  turtle.up()
+  roof(6)
+  turtle.turnRight()
+  roof(6)
+  turtle.turnRight()
+  roof(5)
+  turtle.turnRight()
+  roof(5)
+  turtle.turnRight()
+  roof(4)
+  turtle.turnRight()
+  roof(4)
+  turtle.turnRight()
+  roof(3)
+  turtle.turnRight()
+  roof(3)
+  turtle.turnRight()
+  roof(2)
+  turtle.turnRight()
+  roof(2)
+  turtle.turnRight()
+  roof(1)
+  turtle.turnRight()
+  roof(1)
+  turtle.turnRight()
+  turtle.turnLeft()
+  turtle.forward()
+  turtle.forward()
+  turtle.forward()
+  turtle.turnRight()
+  turtle.back()
+  turtle.back()
+  turtle.back()
+  turtle.down()
+  turtle.down()
+  turtle.down()
+  print("House building complete!")
+end
+
+-- Run the main function
+main()
