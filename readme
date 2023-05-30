@@ -29,9 +29,11 @@ Deploy the Turtle
   (1) Go into Turtle command line
   (2) Command: dir (you should see 'disk' and 'rom')
   (3) Command: cd disk (you will change to the disk drive
-  (4) Command: edit house (it will open a new window to enter the code.
+  (4) Command: edit <program_name, eg: house> (it will open a new window to enter the code)
   (5) Code: print ("Hello World") (This is just temporary)
   (6) Hit control, save the file and exit.
   (7) At this point, you can exit the game and edit the code outside of the game.
+  (8) The disk file should be under %appdata% --> .minecraft/saves/<world_name>/computercraft/disk/<disk_#>
+  (9) Edit the program_name (.lua file) and save it.
+  (10) Command: program_name (house)
   
-- Once the above is completed. 
