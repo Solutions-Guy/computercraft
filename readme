@@ -35,5 +35,5 @@ Deploy the Turtle
   (6) Press CTRL, save the File and Exit.
   (7) At this point, you can exit the game and edit the code outside of the game.
   (8) The disk file should be under .minecraft/saves/<world_name>/computercraft/disk/<disk_#>
-  (9) Edit the <program_name> and save it. (open .lua file in text editor, copy and paste the simple_house code: https://github.com/Solutions-Guy/computercraft/blob/main/simple_house)
+  (9) Edit the <program_name> and save it. (open .lua file in text editor, copy and paste the [simple_house](https://github.com/Solutions-Guy/computercraft/blob/main/simple_house) code)
   (10) Command:<program_name, eg: simple_house>
