@@ -1,7 +1,7 @@
 rednet.open("left") -- Turtle has Ender Modem on its left side
 while true do
-  local sender, message, protocol = rednet.receive()
-  if message == "forward" then
+  local sender, message, protocol = rednet.receive() -- This variable will only use the message protocol, but sender and protocol values may be stored into the rednet.receive() program
+  if message == "forward" then -- When the Turtle receives this message, it will run the corresponding command
     turtle.forward()
   end
   if message == "left" then
