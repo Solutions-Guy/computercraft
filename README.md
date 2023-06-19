@@ -19,7 +19,7 @@ Note: The turtle should be on an elevated platform to be deployed in a straight 
 ## Turtle Setup
 Go into Turtle command line and enter:
 ```
-$ refuel all // only needs a stack to complete this house)
+$ refuel all // only needs a stack to complete this house
 ```
 Note: Make sure the Turtle has fuel
 
