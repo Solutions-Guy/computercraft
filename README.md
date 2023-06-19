@@ -50,3 +50,7 @@ At this point, you can exit the game and edit the code outside of the game.
 ```
 $ <program_name> // eg: simple_house
 ```
+## House Complete
+Enjoy your new house made by a Turtle!
+![Complete](https://github.com/Solutions-Guy/computercraft/blob/main/assets/complete.PNG)
+![Complete3](https://github.com/Solutions-Guy/computercraft/blob/main/assets/complete3.PNG)
