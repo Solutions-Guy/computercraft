@@ -1,4 +1,4 @@
-rednet.open("left") -- Turtle has Ender Modem on its left side.
+rednet.open("left") -- Turtle has Ender Modem on its left side
 while true do
   local sender, message, protocol = rednet.receive()
   if message == "forward" then
