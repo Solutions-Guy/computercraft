@@ -31,9 +31,12 @@ Setup 4 different items, and place them in the Turtle inventory.
 * Torch // slot 4
 Note: Turtles have a total of 16 slots. Turtles cannot carry an infinite amount of items, but you can program them to get more items from chests.
 
+![prep](https://github.com/Solutions-Guy/computercraft/blob/main/assets/prep.PNG)
+
 ## Deploy the Turtle
 Create a program and save it to a disk drive.
 
+![create](https://github.com/Solutions-Guy/computercraft/blob/main/assets/program.PNG)
 
 Go into Turtle command line, and enter:
 ```
@@ -44,9 +47,14 @@ $ print("Hello World") // This is just temporary
 ```
 Note: Press CTRL, save the File and Exit.
 
+![Edit](https://github.com/Solutions-Guy/computercraft/blob/main/assets/overwrite.PNG)
+
 At this point, you can exit the game and edit the code outside of the game.
 * In Windows, the disk file should be under .minecraft/saves/<world_name>/computercraft/disk/<disk_#>
 * Edit the <program_name> and save it. // open .lua file in text editor, copy and paste the <simple_house> code
+
+![Overwrite](https://github.com/Solutions-Guy/computercraft/blob/main/assets/overwritten.PNG)
+
 ```
 $ <program_name> // eg: simple_house
 ```
