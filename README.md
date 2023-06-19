@@ -17,7 +17,7 @@ Note: The turtle should be on an elevated platform to be deployed in a straight 
 ## Turtle setup:
 Go into Turtle command line 
 ```
-$ Command: refuel all // only needs a stack to complete this house)
+$ refuel all // only needs a stack to complete this house)
 ```
 Note: Make sure the Turtle has fuel
 
@@ -41,7 +41,7 @@ Note: Press CTRL, save the File and Exit.
 
 At this point, you can exit the game and edit the code outside of the game.
 * In Windows, the disk file should be under .minecraft/saves/<world_name>/computercraft/disk/<disk_#>
-* Edit the <program_name> and save it. //open .lua file in text editor, copy and paste the <simple_house> code
+* Edit the <program_name> and save it. // open .lua file in text editor, copy and paste the <simple_house> code
 ```
-$ Command:<program_name, eg: simple_house>
+$ <program_name> // eg: simple_house
 ```
