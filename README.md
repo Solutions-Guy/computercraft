@@ -12,7 +12,9 @@ Setup the following:
 * Computer
 * Disk Drive // with Floppy Disk
 * Turtle
-Note: The turtle should be on an elevated platform to be deployed in a straight line, it will starts placing blocks beneath it. Make sure you have plenty of room for the simple house build.
+Note: The turtle should be on an elevated platform to be deployed in a straight line, it will starts placing blocks beneath it. Make sure you have plenty of room for the 5x6 block house build.
+
+![Setup](https://github.com/Solutions-Guy/computercraft/blob/main/assets/setup.PNG)
 
 ## Turtle Setup
 Go into Turtle command line and enter:
@@ -27,10 +29,11 @@ Setup 4 different items, and place them in the Turtle inventory.
 * Door // slot 2
 * Roof material // slot 3
 * Torch // slot 4
-Note: Turtles have a total of 16 slots. Turtles cannot carry an infinite amount of items, but you can program them to get items from chests.
+Note: Turtles have a total of 16 slots. Turtles cannot carry an infinite amount of items, but you can program them to get more items from chests.
 
 ## Deploy the Turtle
-Create a program and save it to a disk drive. 
+Create a program and save it to a disk drive.
+
 
 Go into Turtle command line, and enter:
 ```
