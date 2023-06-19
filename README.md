@@ -33,7 +33,7 @@ Note: Turtles have a total of 16 slots. Turtles cannot carry an infinite amount 
 
 ![prep](https://github.com/Solutions-Guy/computercraft/blob/main/assets/prep.PNG)
 
-## Deploy the Turtle
+## Programing the Turtle
 Create a program and save it to a disk drive.
 
 ![create](https://github.com/Solutions-Guy/computercraft/blob/main/assets/program.PNG)
@@ -55,6 +55,8 @@ At this point, you can exit the game and edit the code outside of the game.
 
 ![Overwrite](https://github.com/Solutions-Guy/computercraft/blob/main/assets/overwritten.PNG)
 
+## Deploy the Turtle
+Finally, go into the Turtle commmand line and navigate to the disk directory and run the program.
 ```
 $ <program_name> // eg: simple_house
 ```
