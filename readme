@@ -32,7 +32,9 @@ Deploy the Turtle
   (3) Command: cd disk (change to the disk drive)
   (4) Command: edit <program_name, eg: simple_house> (opens a new window to enter the code)
 
-![Creating Program](https://github.com/Solutions-Guy/computercraft/blob/main/Pictures/Creating%20a%20Program.PNG)
+Creating Program
+![Creating Program](https://github.com/Solutions-Guy/computercraft/blob/main/Pictures/Creating%20Program.png)
+
 
   (5) Code: print ("Hello World") (This is just temporary)
   (6) Press CTRL, save the File and Exit.
