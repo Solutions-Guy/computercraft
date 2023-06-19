@@ -21,7 +21,7 @@ Go into Turtle command line and enter:
 ```
 $ refuel all // only needs a stack to complete this house
 ```
-Note: Make sure the Turtle has fuel
+Note: Make sure the Turtle has fuel in its inventory, such as 64 coal.
 
 ## Material Preprations
 Setup 4 different items, and place them in the Turtle inventory. 
