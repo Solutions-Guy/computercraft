@@ -1,0 +1,34 @@
+rednet.open("left") -- Turtle has Ender Modem on its left side.
+while true do
+  local sender, message, protocol = rednet.receive()
+  if message == "forward" then
+    turtle.forward()
+  end
+  if message == "left" then
+    turtle.turnLeft()
+  end
+  if message == "right" then
+    turtle.turnRight()
+  end
+  if message == "back" then
+    turtle.back()
+  end
+  if message == "up" then
+    turtle.up()
+  end
+  if message == "down" then
+    turtle.down()
+  end
+  if message == "attack" then
+    turtle.attack()
+  end
+  if message == "dig up" then
+    turtle.digUp()
+  end
+  if message == "dig" then
+    turtle.dig()
+  end
+  if message == "dig down" then
+    turtle.digDown()
+  end
+end
