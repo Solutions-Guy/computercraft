@@ -16,16 +16,18 @@ Note: The turtle should be on an elevated platform to be deployed in a straight 
 
 Turtle setup:
 ```
-* Make sure the Turtle has fuel
 $ Go into Turtle command line 
 $ Command: refuel all // only needs a stack to complete this house)
 ```
+Note: Make sure the Turtle has fuel
 
-- Setup 4 different items: 
-  (1) Wall material
-  (2) Door
-  (3) Roof material
-  (4) Torch
+Setup 4 different items: 
+```
+$ Wall material // slot 1
+$ Door // slot 2
+$ Roof material // slot 3
+$ Torch // slot 4
+```
   
 Deploy the Turtle
 - Create a program and save it to a disk drive. 
