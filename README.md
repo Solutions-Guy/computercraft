@@ -1,5 +1,4 @@
 # Create a simple house in ComputerCraft
-
 Pre-requisites:
 * Minecraft Java 1.19.4
 * Download and execute Fabric Installer: https://fabricmc.net/use/installer/
@@ -8,29 +7,32 @@ Pre-requisites:
 * Download Mod Menu Jar file: https://modrinth.com/mod/modmenu/version/6.2.2
 * Move all 3 mods into the mods folder: users/username/AppData/Roaming/.minecraft/mods // search for %appdata% on Windows
 
-## Load the game and setup the following:
+## Starting up the Environment
+Setup the following:
 * Computer
 * Disk Drive // with Floppy Disk
 * Turtle
-Note: The turtle should be on an elevated platform to be deployed in a straight line, it will starts placing blocks beneath it.
+Note: The turtle should be on an elevated platform to be deployed in a straight line, it will starts placing blocks beneath it. Make sure you have plenty of room for the simple house build.
 
-## Turtle setup:
-Go into Turtle command line 
+## Turtle Setup
+Go into Turtle command line and enter:
 ```
 $ refuel all // only needs a stack to complete this house)
 ```
 Note: Make sure the Turtle has fuel
 
-## Setup 4 different items
+## Material Preprations
+Setup 4 different items, and place them in the Turtle inventory. 
 * Wall material // slot 1
 * Door // slot 2
 * Roof material // slot 3
 * Torch // slot 4
-  
+Note: Turtles have a total of 16 slots. Turtles cannot carry an infinite amount of items, but you can program them to get items from chests.
+
 ## Deploy the Turtle
 Create a program and save it to a disk drive. 
 
-Go into Turtle command line
+Go into Turtle command line, and enter:
 ```
 $ dir // you should see 'disk' and 'rom'
 $ cd disk //change to the disk drive
